@@ -1,0 +1,9 @@
+int main()
+{
+	int a,b,c,d;                           // variable to store int values
+	printf("enter the two angles");
+	scanf("%d%d",&a,&b);                   // reading two values from keyboard
+	c=a+b;                                 //calculating third angle
+	d=180-c;
+	printf("the third angle is :%d",d);    // displaying output
+	return 0;
